@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5875EDC21F3D9C570034ECAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5875EDC11F3D9C570034ECAB /* AppDelegate.swift */; };
+		5875EDC41F3D9C570034ECAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5875EDC31F3D9C570034ECAB /* ViewController.swift */; };
+		5875EDC71F3D9C570034ECAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5875EDC51F3D9C570034ECAB /* Main.storyboard */; };
+		5875EDCA1F3D9C570034ECAB /* WYMusic.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5875EDC81F3D9C570034ECAB /* WYMusic.xcdatamodeld */; };
+		5875EDCC1F3D9C570034ECAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5875EDCB1F3D9C570034ECAB /* Assets.xcassets */; };
+		5875EDCF1F3D9C570034ECAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5875EDCD1F3D9C570034ECAB /* LaunchScreen.storyboard */; };
+		5875EDDA1F3D9C570034ECAB /* WYMusicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5875EDD91F3D9C570034ECAB /* WYMusicTests.swift */; };
+		5875EDE51F3D9C580034ECAB /* WYMusicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5875EDE41F3D9C580034ECAB /* WYMusicUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5875EDD61F3D9C570034ECAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5875EDB61F3D9C570034ECAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5875EDBD1F3D9C570034ECAB;
+			remoteInfo = WYMusic;
+		};
+		5875EDE11F3D9C580034ECAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5875EDB61F3D9C570034ECAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5875EDBD1F3D9C570034ECAB;
+			remoteInfo = WYMusic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5875EDBE1F3D9C570034ECAB /* WYMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WYMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5875EDC11F3D9C570034ECAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5875EDC31F3D9C570034ECAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5875EDC61F3D9C570034ECAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5875EDC91F3D9C570034ECAB /* WYMusic.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WYMusic.xcdatamodel; sourceTree = "<group>"; };
+		5875EDCB1F3D9C570034ECAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5875EDCE1F3D9C570034ECAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5875EDD01F3D9C570034ECAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5875EDD51F3D9C570034ECAB /* WYMusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WYMusicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5875EDD91F3D9C570034ECAB /* WYMusicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYMusicTests.swift; sourceTree = "<group>"; };
+		5875EDDB1F3D9C570034ECAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5875EDE01F3D9C580034ECAB /* WYMusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WYMusicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5875EDE41F3D9C580034ECAB /* WYMusicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYMusicUITests.swift; sourceTree = "<group>"; };
+		5875EDE61F3D9C580034ECAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5875EDBB1F3D9C570034ECAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5875EDD21F3D9C570034ECAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5875EDDD1F3D9C580034ECAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5875EDB51F3D9C570034ECAB = {
+			isa = PBXGroup;
+			children = (
+				5875EDC01F3D9C570034ECAB /* WYMusic */,
+				5875EDD81F3D9C570034ECAB /* WYMusicTests */,
+				5875EDE31F3D9C580034ECAB /* WYMusicUITests */,
+				5875EDBF1F3D9C570034ECAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5875EDBF1F3D9C570034ECAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5875EDBE1F3D9C570034ECAB /* WYMusic.app */,
+				5875EDD51F3D9C570034ECAB /* WYMusicTests.xctest */,
+				5875EDE01F3D9C580034ECAB /* WYMusicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5875EDC01F3D9C570034ECAB /* WYMusic */ = {
+			isa = PBXGroup;
+			children = (
+				5875EDC11F3D9C570034ECAB /* AppDelegate.swift */,
+				5875EDC31F3D9C570034ECAB /* ViewController.swift */,
+				5875EDC51F3D9C570034ECAB /* Main.storyboard */,
+				5875EDCB1F3D9C570034ECAB /* Assets.xcassets */,
+				5875EDCD1F3D9C570034ECAB /* LaunchScreen.storyboard */,
+				5875EDD01F3D9C570034ECAB /* Info.plist */,
+				5875EDC81F3D9C570034ECAB /* WYMusic.xcdatamodeld */,
+			);
+			path = WYMusic;
+			sourceTree = "<group>";
+		};
+		5875EDD81F3D9C570034ECAB /* WYMusicTests */ = {
+			isa = PBXGroup;
+			children = (
+				5875EDD91F3D9C570034ECAB /* WYMusicTests.swift */,
+				5875EDDB1F3D9C570034ECAB /* Info.plist */,
+			);
+			path = WYMusicTests;
+			sourceTree = "<group>";
+		};
+		5875EDE31F3D9C580034ECAB /* WYMusicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5875EDE41F3D9C580034ECAB /* WYMusicUITests.swift */,
+				5875EDE61F3D9C580034ECAB /* Info.plist */,
+			);
+			path = WYMusicUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5875EDBD1F3D9C570034ECAB /* WYMusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5875EDE91F3D9C580034ECAB /* Build configuration list for PBXNativeTarget "WYMusic" */;
+			buildPhases = (
+				5875EDBA1F3D9C570034ECAB /* Sources */,
+				5875EDBB1F3D9C570034ECAB /* Frameworks */,
+				5875EDBC1F3D9C570034ECAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WYMusic;
+			productName = WYMusic;
+			productReference = 5875EDBE1F3D9C570034ECAB /* WYMusic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5875EDD41F3D9C570034ECAB /* WYMusicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5875EDEC1F3D9C580034ECAB /* Build configuration list for PBXNativeTarget "WYMusicTests" */;
+			buildPhases = (
+				5875EDD11F3D9C570034ECAB /* Sources */,
+				5875EDD21F3D9C570034ECAB /* Frameworks */,
+				5875EDD31F3D9C570034ECAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5875EDD71F3D9C570034ECAB /* PBXTargetDependency */,
+			);
+			name = WYMusicTests;
+			productName = WYMusicTests;
+			productReference = 5875EDD51F3D9C570034ECAB /* WYMusicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5875EDDF1F3D9C580034ECAB /* WYMusicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5875EDEF1F3D9C580034ECAB /* Build configuration list for PBXNativeTarget "WYMusicUITests" */;
+			buildPhases = (
+				5875EDDC1F3D9C580034ECAB /* Sources */,
+				5875EDDD1F3D9C580034ECAB /* Frameworks */,
+				5875EDDE1F3D9C580034ECAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5875EDE21F3D9C580034ECAB /* PBXTargetDependency */,
+			);
+			name = WYMusicUITests;
+			productName = WYMusicUITests;
+			productReference = 5875EDE01F3D9C580034ECAB /* WYMusicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5875EDB61F3D9C570034ECAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = ZMH;
+				TargetAttributes = {
+					5875EDBD1F3D9C570034ECAB = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					5875EDD41F3D9C570034ECAB = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5875EDBD1F3D9C570034ECAB;
+					};
+					5875EDDF1F3D9C580034ECAB = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5875EDBD1F3D9C570034ECAB;
+					};
+				};
+			};
+			buildConfigurationList = 5875EDB91F3D9C570034ECAB /* Build configuration list for PBXProject "WYMusic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5875EDB51F3D9C570034ECAB;
+			productRefGroup = 5875EDBF1F3D9C570034ECAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5875EDBD1F3D9C570034ECAB /* WYMusic */,
+				5875EDD41F3D9C570034ECAB /* WYMusicTests */,
+				5875EDDF1F3D9C580034ECAB /* WYMusicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5875EDBC1F3D9C570034ECAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5875EDCF1F3D9C570034ECAB /* LaunchScreen.storyboard in Resources */,
+				5875EDCC1F3D9C570034ECAB /* Assets.xcassets in Resources */,
+				5875EDC71F3D9C570034ECAB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5875EDD31F3D9C570034ECAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5875EDDE1F3D9C580034ECAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5875EDBA1F3D9C570034ECAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5875EDC41F3D9C570034ECAB /* ViewController.swift in Sources */,
+				5875EDC21F3D9C570034ECAB /* AppDelegate.swift in Sources */,
+				5875EDCA1F3D9C570034ECAB /* WYMusic.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5875EDD11F3D9C570034ECAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5875EDDA1F3D9C570034ECAB /* WYMusicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5875EDDC1F3D9C580034ECAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5875EDE51F3D9C580034ECAB /* WYMusicUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5875EDD71F3D9C570034ECAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5875EDBD1F3D9C570034ECAB /* WYMusic */;
+			targetProxy = 5875EDD61F3D9C570034ECAB /* PBXContainerItemProxy */;
+		};
+		5875EDE21F3D9C580034ECAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5875EDBD1F3D9C570034ECAB /* WYMusic */;
+			targetProxy = 5875EDE11F3D9C580034ECAB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5875EDC51F3D9C570034ECAB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5875EDC61F3D9C570034ECAB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5875EDCD1F3D9C570034ECAB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5875EDCE1F3D9C570034ECAB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5875EDE71F3D9C580034ECAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5875EDE81F3D9C580034ECAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5875EDEA1F3D9C580034ECAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WYMusic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = supadata.WYMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5875EDEB1F3D9C580034ECAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WYMusic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = supadata.WYMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		5875EDED1F3D9C580034ECAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WYMusicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = supadata.WYMusicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WYMusic.app/WYMusic";
+			};
+			name = Debug;
+		};
+		5875EDEE1F3D9C580034ECAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WYMusicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = supadata.WYMusicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WYMusic.app/WYMusic";
+			};
+			name = Release;
+		};
+		5875EDF01F3D9C580034ECAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = WYMusicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = supadata.WYMusicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WYMusic;
+			};
+			name = Debug;
+		};
+		5875EDF11F3D9C580034ECAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = WYMusicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = supadata.WYMusicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WYMusic;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5875EDB91F3D9C570034ECAB /* Build configuration list for PBXProject "WYMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5875EDE71F3D9C580034ECAB /* Debug */,
+				5875EDE81F3D9C580034ECAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5875EDE91F3D9C580034ECAB /* Build configuration list for PBXNativeTarget "WYMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5875EDEA1F3D9C580034ECAB /* Debug */,
+				5875EDEB1F3D9C580034ECAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5875EDEC1F3D9C580034ECAB /* Build configuration list for PBXNativeTarget "WYMusicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5875EDED1F3D9C580034ECAB /* Debug */,
+				5875EDEE1F3D9C580034ECAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5875EDEF1F3D9C580034ECAB /* Build configuration list for PBXNativeTarget "WYMusicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5875EDF01F3D9C580034ECAB /* Debug */,
+				5875EDF11F3D9C580034ECAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5875EDC81F3D9C570034ECAB /* WYMusic.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5875EDC91F3D9C570034ECAB /* WYMusic.xcdatamodel */,
+			);
+			currentVersion = 5875EDC91F3D9C570034ECAB /* WYMusic.xcdatamodel */;
+			path = WYMusic.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5875EDB61F3D9C570034ECAB /* Project object */;
+}
