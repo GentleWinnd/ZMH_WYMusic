@@ -24,18 +24,122 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ylV-ED-uL1">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mwv-Nd-L28">
-                                        <rect key="frame" x="-10" y="630" width="82" height="28"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" image="cm2_btm_icn_discovery.png"/>
-                                    </button>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XqI-JI-YHn">
-                                        <rect key="frame" x="99" y="598" width="81" height="69"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5KL-yw-FDF">
+                                        <rect key="frame" x="0.0" y="618" width="375" height="49"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XqI-JI-YHn" userLabel="discoverM">
+                                                <rect key="frame" x="0.0" y="0.0" width="94" height="49"/>
+                                                <subviews>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cm2_btm_icn_discovery.png" translatesAutoresizingMaskIntoConstraints="NO" id="Gw8-Tb-Cpr">
+                                                        <rect key="frame" x="33" y="4.5" width="28" height="28"/>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="发现音乐" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mCD-hc-pwe">
+                                                        <rect key="frame" x="26.5" y="33.5" width="41" height="12"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                                        <color key="textColor" red="0.63137254899999995" green="0.63137254899999995" blue="0.63137254899999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstItem="Gw8-Tb-Cpr" firstAttribute="centerX" secondItem="XqI-JI-YHn" secondAttribute="centerX" id="3hv-20-YIH"/>
+                                                    <constraint firstItem="Gw8-Tb-Cpr" firstAttribute="centerY" secondItem="XqI-JI-YHn" secondAttribute="centerY" constant="-6" id="G7w-DE-2TW"/>
+                                                    <constraint firstItem="mCD-hc-pwe" firstAttribute="centerX" secondItem="XqI-JI-YHn" secondAttribute="centerX" id="qRw-6F-9DI"/>
+                                                    <constraint firstItem="mCD-hc-pwe" firstAttribute="centerY" secondItem="XqI-JI-YHn" secondAttribute="centerY" constant="15" id="swy-sm-gQL"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qbg-D2-glV" userLabel="mineM">
+                                                <rect key="frame" x="94" y="0.0" width="93.5" height="49"/>
+                                                <subviews>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cm2_btm_icn_music.png" translatesAutoresizingMaskIntoConstraints="NO" id="eqi-BX-9IK">
+                                                        <rect key="frame" x="32" y="4" width="28" height="28"/>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="我的音乐" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uaw-Bq-FuK">
+                                                        <rect key="frame" x="26" y="33" width="41" height="12"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                                        <color key="textColor" red="0.63137254899999995" green="0.63137254899999995" blue="0.63137254899999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstItem="Uaw-Bq-FuK" firstAttribute="centerX" secondItem="Qbg-D2-glV" secondAttribute="centerX" id="26q-yH-tUe"/>
+                                                    <constraint firstItem="Uaw-Bq-FuK" firstAttribute="centerY" secondItem="Qbg-D2-glV" secondAttribute="centerY" constant="15" id="Dfm-yu-Kto"/>
+                                                    <constraint firstItem="eqi-BX-9IK" firstAttribute="centerY" secondItem="Qbg-D2-glV" secondAttribute="centerY" constant="-6" id="DmV-Lt-Qkt"/>
+                                                    <constraint firstItem="eqi-BX-9IK" firstAttribute="centerX" secondItem="Qbg-D2-glV" secondAttribute="centerX" id="way-QV-S9S"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Q21-Jf-Gel" userLabel="friends">
+                                                <rect key="frame" x="187.5" y="0.0" width="94" height="49"/>
+                                                <subviews>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cm2_btm_icn_friend.png" translatesAutoresizingMaskIntoConstraints="NO" id="R32-5I-o2S">
+                                                        <rect key="frame" x="33" y="4.5" width="28" height="28"/>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="朋友" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mK6-gq-fBX">
+                                                        <rect key="frame" x="37" y="34" width="20.5" height="12"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                                        <color key="textColor" red="0.63137254899999995" green="0.63137254899999995" blue="0.63137254899999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstItem="R32-5I-o2S" firstAttribute="centerY" secondItem="Q21-Jf-Gel" secondAttribute="centerY" constant="-6" id="Eu2-vV-fob"/>
+                                                    <constraint firstItem="mK6-gq-fBX" firstAttribute="centerX" secondItem="Q21-Jf-Gel" secondAttribute="centerX" id="QRc-sq-5HQ"/>
+                                                    <constraint firstItem="R32-5I-o2S" firstAttribute="centerX" secondItem="Q21-Jf-Gel" secondAttribute="centerX" id="WBB-MI-a66"/>
+                                                    <constraint firstItem="mK6-gq-fBX" firstAttribute="centerY" secondItem="Q21-Jf-Gel" secondAttribute="centerY" constant="15" id="uDG-f1-nUJ"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kRD-Of-5m2" userLabel="acount">
+                                                <rect key="frame" x="281.5" y="0.0" width="93.5" height="49"/>
+                                                <subviews>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cm2_btm_icn_account.png" translatesAutoresizingMaskIntoConstraints="NO" id="GGX-ga-HWz">
+                                                        <rect key="frame" x="32.5" y="4.5" width="28" height="28"/>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="账号" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c5i-h2-KGk">
+                                                        <rect key="frame" x="37" y="34" width="20.5" height="12"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                                        <color key="textColor" red="0.63137254899999995" green="0.63137254899999995" blue="0.63137254899999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstItem="GGX-ga-HWz" firstAttribute="centerX" secondItem="kRD-Of-5m2" secondAttribute="centerX" id="9yq-ZY-2P6"/>
+                                                    <constraint firstItem="c5i-h2-KGk" firstAttribute="centerY" secondItem="kRD-Of-5m2" secondAttribute="centerY" constant="15" id="KWf-9H-1xi"/>
+                                                    <constraint firstItem="c5i-h2-KGk" firstAttribute="centerX" secondItem="kRD-Of-5m2" secondAttribute="centerX" id="kbc-xf-6Jg"/>
+                                                    <constraint firstItem="GGX-ga-HWz" firstAttribute="centerY" secondItem="kRD-Of-5m2" secondAttribute="centerY" constant="-6" id="z1r-jc-7C7"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstItem="XqI-JI-YHn" firstAttribute="top" secondItem="5KL-yw-FDF" secondAttribute="top" id="3DV-3Q-qTK"/>
+                                            <constraint firstItem="Q21-Jf-Gel" firstAttribute="width" secondItem="XqI-JI-YHn" secondAttribute="width" id="7yB-9v-Qcy"/>
+                                            <constraint firstItem="kRD-Of-5m2" firstAttribute="bottom" secondItem="XqI-JI-YHn" secondAttribute="bottom" id="8og-H6-5Lg"/>
+                                            <constraint firstItem="Qbg-D2-glV" firstAttribute="bottom" secondItem="XqI-JI-YHn" secondAttribute="bottom" id="A64-Lg-xbB"/>
+                                            <constraint firstAttribute="height" constant="49" id="BL6-xP-XTt"/>
+                                            <constraint firstAttribute="bottom" secondItem="XqI-JI-YHn" secondAttribute="bottom" id="EYl-KQ-Azc"/>
+                                            <constraint firstItem="kRD-Of-5m2" firstAttribute="width" secondItem="XqI-JI-YHn" secondAttribute="width" id="K7Q-X4-Cuj"/>
+                                            <constraint firstItem="Qbg-D2-glV" firstAttribute="width" secondItem="XqI-JI-YHn" secondAttribute="width" id="M2Q-MP-Zxw"/>
+                                            <constraint firstItem="Qbg-D2-glV" firstAttribute="leading" secondItem="XqI-JI-YHn" secondAttribute="trailing" id="MyR-2m-6W1"/>
+                                            <constraint firstItem="Q21-Jf-Gel" firstAttribute="bottom" secondItem="XqI-JI-YHn" secondAttribute="bottom" id="Tck-b2-0lZ"/>
+                                            <constraint firstItem="kRD-Of-5m2" firstAttribute="top" secondItem="XqI-JI-YHn" secondAttribute="top" id="VxE-SY-5qZ"/>
+                                            <constraint firstItem="Q21-Jf-Gel" firstAttribute="leading" secondItem="Qbg-D2-glV" secondAttribute="trailing" id="bQP-2F-tUH"/>
+                                            <constraint firstItem="kRD-Of-5m2" firstAttribute="leading" secondItem="Q21-Jf-Gel" secondAttribute="trailing" id="bh5-Pf-RHo"/>
+                                            <constraint firstItem="Qbg-D2-glV" firstAttribute="top" secondItem="XqI-JI-YHn" secondAttribute="top" id="bpm-8S-hHO"/>
+                                            <constraint firstItem="Q21-Jf-Gel" firstAttribute="top" secondItem="XqI-JI-YHn" secondAttribute="top" id="cmF-hd-EEx"/>
+                                            <constraint firstItem="XqI-JI-YHn" firstAttribute="leading" secondItem="5KL-yw-FDF" secondAttribute="leading" id="gQY-oH-pnK"/>
+                                            <constraint firstAttribute="trailing" secondItem="kRD-Of-5m2" secondAttribute="trailing" id="ufy-mB-Qh8"/>
+                                        </constraints>
                                     </view>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="5KL-yw-FDF" secondAttribute="trailing" id="IbM-Wn-6VL"/>
+                                    <constraint firstAttribute="bottom" secondItem="5KL-yw-FDF" secondAttribute="bottom" id="k3e-A2-A5R"/>
+                                    <constraint firstItem="5KL-yw-FDF" firstAttribute="leading" secondItem="ylV-ED-uL1" secondAttribute="leading" id="koX-B4-0b1"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -46,6 +150,22 @@
                             <constraint firstAttribute="trailing" secondItem="ylV-ED-uL1" secondAttribute="trailing" id="Rcz-Lf-KqI"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="acountBtn" destination="kRD-Of-5m2" id="xEr-k7-cSr"/>
+                        <outlet property="acountIMg" destination="GGX-ga-HWz" id="BUB-mI-Dpb"/>
+                        <outlet property="acountLab" destination="c5i-h2-KGk" id="Fbs-eC-dtQ"/>
+                        <outlet property="cotainnerView" destination="ylV-ED-uL1" id="j3T-oo-5Dl"/>
+                        <outlet property="discoverBtn" destination="XqI-JI-YHn" id="QEG-OJ-XhA"/>
+                        <outlet property="discoverImg" destination="Gw8-Tb-Cpr" id="RHL-g8-elZ"/>
+                        <outlet property="discoverLab" destination="mCD-hc-pwe" id="fKO-AU-cgU"/>
+                        <outlet property="friendsBtn" destination="Q21-Jf-Gel" id="cTo-8Q-C8g"/>
+                        <outlet property="friendsImg" destination="R32-5I-o2S" id="rsJ-V9-ptB"/>
+                        <outlet property="friendsLab" destination="mK6-gq-fBX" id="wZn-h7-Pk5"/>
+                        <outlet property="mineBtn" destination="Qbg-D2-glV" id="VGd-0f-JXp"/>
+                        <outlet property="mineImg" destination="eqi-BX-9IK" id="Mex-Yw-Sez"/>
+                        <outlet property="mineLab" destination="Uaw-Bq-FuK" id="5C2-sN-NW1"/>
+                        <outlet property="tabbarView" destination="5KL-yw-FDF" id="Ohk-pv-QM3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -53,6 +173,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="cm2_btm_icn_account.png" width="28" height="28"/>
         <image name="cm2_btm_icn_discovery.png" width="28" height="28"/>
+        <image name="cm2_btm_icn_friend.png" width="28" height="28"/>
+        <image name="cm2_btm_icn_music.png" width="28" height="28"/>
     </resources>
 </document>
