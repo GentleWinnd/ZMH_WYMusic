@@ -28,7 +28,6 @@
 		5876AD2E1F3DAB79004BF8F2 /* AppIcon60x60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5876A70E1F3DAB6D004BF8F2 /* AppIcon60x60@2x.png */; };
 		5876AD2F1F3DAB79004BF8F2 /* AppIcon60x60@2x~car.png in Resources */ = {isa = PBXBuildFile; fileRef = 5876A70F1F3DAB6D004BF8F2 /* AppIcon60x60@2x~car.png */; };
 		5876AD301F3DAB79004BF8F2 /* AppIcon60x60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5876A7101F3DAB6D004BF8F2 /* AppIcon60x60@3x.png */; };
-		5876AD311F3DAB79004BF8F2 /* AppIcon60x60@3x~car.png in Resources */ = {isa = PBXBuildFile; fileRef = 5876A7111F3DAB6D004BF8F2 /* AppIcon60x60@3x~car.png */; };
 		5876AD321F3DAB79004BF8F2 /* cm2_act_activity_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 5876A7121F3DAB6D004BF8F2 /* cm2_act_activity_btn.png */; };
 		5876AD331F3DAB79004BF8F2 /* cm2_act_activity_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5876A7131F3DAB6D004BF8F2 /* cm2_act_activity_btn@2x.png */; };
 		5876AD341F3DAB79004BF8F2 /* cm2_act_activity_btn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5876A7141F3DAB6D004BF8F2 /* cm2_act_activity_btn@3x.png */; };
@@ -1584,6 +1583,7 @@
 		5876B3421F3DAB7A004BF8F2 /* NMListenViewNameBGPressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5876AD221F3DAB79004BF8F2 /* NMListenViewNameBGPressed@2x.png */; };
 		5876B3431F3DAB7A004BF8F2 /* ProvincesAndCities.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5876AD231F3DAB79004BF8F2 /* ProvincesAndCities.plist */; };
 		5876B3441F3DAB7A004BF8F2 /* UIPickerShadowTop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5876AD241F3DAB79004BF8F2 /* UIPickerShadowTop@2x.png */; };
+		58BB01DF2004A4930053E31A /* AppIcon1024x1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 58BB01DE2004A4920053E31A /* AppIcon1024x1024.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1630,7 +1630,6 @@
 		5876A70E1F3DAB6D004BF8F2 /* AppIcon60x60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon60x60@2x.png"; sourceTree = "<group>"; };
 		5876A70F1F3DAB6D004BF8F2 /* AppIcon60x60@2x~car.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon60x60@2x~car.png"; sourceTree = "<group>"; };
 		5876A7101F3DAB6D004BF8F2 /* AppIcon60x60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon60x60@3x.png"; sourceTree = "<group>"; };
-		5876A7111F3DAB6D004BF8F2 /* AppIcon60x60@3x~car.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon60x60@3x~car.png"; sourceTree = "<group>"; };
 		5876A7121F3DAB6D004BF8F2 /* cm2_act_activity_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cm2_act_activity_btn.png; sourceTree = "<group>"; };
 		5876A7131F3DAB6D004BF8F2 /* cm2_act_activity_btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cm2_act_activity_btn@2x.png"; sourceTree = "<group>"; };
 		5876A7141F3DAB6D004BF8F2 /* cm2_act_activity_btn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cm2_act_activity_btn@3x.png"; sourceTree = "<group>"; };
@@ -3186,6 +3185,7 @@
 		5876AD221F3DAB79004BF8F2 /* NMListenViewNameBGPressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NMListenViewNameBGPressed@2x.png"; sourceTree = "<group>"; };
 		5876AD231F3DAB79004BF8F2 /* ProvincesAndCities.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = ProvincesAndCities.plist; sourceTree = "<group>"; };
 		5876AD241F3DAB79004BF8F2 /* UIPickerShadowTop@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UIPickerShadowTop@2x.png"; sourceTree = "<group>"; };
+		58BB01DE2004A4920053E31A /* AppIcon1024x1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon1024x1024.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -3244,6 +3244,7 @@
 				5875EE191F3DA87C0034ECAB /* Suported */,
 				5875EDC31F3D9C570034ECAB /* ViewController.swift */,
 				5875EDC51F3D9C570034ECAB /* Main.storyboard */,
+				5875EE1B1F3DA87C0034ECAB /* Info.plist */,
 				5875EDCB1F3D9C570034ECAB /* Assets.xcassets */,
 				5875EDCD1F3D9C570034ECAB /* LaunchScreen.storyboard */,
 				5875EDC81F3D9C570034ECAB /* WYMusic.xcdatamodeld */,
@@ -3558,7 +3559,6 @@
 			isa = PBXGroup;
 			children = (
 				5875EE1A1F3DA87C0034ECAB /* AppDelegate.swift */,
-				5875EE1B1F3DA87C0034ECAB /* Info.plist */,
 			);
 			path = Suported;
 			sourceTree = "<group>";
@@ -3573,6 +3573,7 @@
 		5876A7041F3DAB6D004BF8F2 /* icon */ = {
 			isa = PBXGroup;
 			children = (
+				58BB01DE2004A4920053E31A /* AppIcon1024x1024.png */,
 				5876A7051F3DAB6D004BF8F2 /* AppIcon20x20@2x.png */,
 				5876A7061F3DAB6D004BF8F2 /* AppIcon20x20@3x.png */,
 				5876A7071F3DAB6D004BF8F2 /* AppIcon29x29.png */,
@@ -3585,7 +3586,6 @@
 				5876A70E1F3DAB6D004BF8F2 /* AppIcon60x60@2x.png */,
 				5876A70F1F3DAB6D004BF8F2 /* AppIcon60x60@2x~car.png */,
 				5876A7101F3DAB6D004BF8F2 /* AppIcon60x60@3x.png */,
-				5876A7111F3DAB6D004BF8F2 /* AppIcon60x60@3x~car.png */,
 				5876A7121F3DAB6D004BF8F2 /* cm2_act_activity_btn.png */,
 				5876A7131F3DAB6D004BF8F2 /* cm2_act_activity_btn@2x.png */,
 				5876A7141F3DAB6D004BF8F2 /* cm2_act_activity_btn@3x.png */,
@@ -6243,6 +6243,7 @@
 				5876ADC21F3DAB79004BF8F2 /* cm2_act_icn_added_prs.png in Resources */,
 				5876ADCE1F3DAB79004BF8F2 /* cm2_act_icn_cmt_sm.png in Resources */,
 				5876B05D1F3DAB7A004BF8F2 /* cm2_icn_musician_tiny@3x.png in Resources */,
+				58BB01DF2004A4930053E31A /* AppIcon1024x1024.png in Resources */,
 				5876AF231F3DAB79004BF8F2 /* cm2_btn_play_ready@3x.png in Resources */,
 				5876B0141F3DAB79004BF8F2 /* cm2_fm_btn_delete@3x.png in Resources */,
 				5876AFE41F3DAB79004BF8F2 /* cm2_edit_QRcode.png in Resources */,
@@ -6715,7 +6716,6 @@
 				5876B1331F3DAB7A004BF8F2 /* cm2_lists_icn_songlist@3x.png in Resources */,
 				5876B2211F3DAB7A004BF8F2 /* cm2_pro_btn_icn_add@3x.png in Resources */,
 				5876B0571F3DAB7A004BF8F2 /* cm2_icn_msg_err_night.png in Resources */,
-				5876AD311F3DAB79004BF8F2 /* AppIcon60x60@3x~car.png in Resources */,
 				5876B2111F3DAB7A004BF8F2 /* cm2_pop_icn_ok@2x.png in Resources */,
 				5876B0E31F3DAB7A004BF8F2 /* cm2_list_cover_icn_privacy@3x.png in Resources */,
 				5876B0A51F3DAB7A004BF8F2 /* cm2_lay_icn_hot.png in Resources */,
